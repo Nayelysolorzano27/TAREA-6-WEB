@@ -1,0 +1,19 @@
+/*Body con color de fondo y tipo de letra*/
+body {
+  background-color: rgb(169, 223, 248);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/*Boton con color de fondo, borde, redondeado, padding y color*/
+.boton {
+  background-color: rgb(101, 134, 241);
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+}
+
+/*Boton con color de fondo al pasar el cursor*/
+.boton:hover {
+  background-color: rgb(113, 41, 180);
+}
